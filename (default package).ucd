@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)" size="1372,585" id="" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204D756C74692D7461736B696E672F4F6C69766572">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.4/@sourceConnections.0" name="AbstractGameState" location="180,30" size="164,153" id="gui/AbstractGameState" runTimeClassModel="clocktick(),handleKeyPressed(Ljava.awt.event.KeyEvent;),AbstractGameState(Lview.GameView;),drawOn(Ljava.awt.Graphics;),handleKeyReleased(Ljava.awt.event.KeyEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,90">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractGameState" id="gui/AbstractGameState#AbstractGameState(Lview.GameView;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clocktick" id="gui/AbstractGameState#clocktick()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawOn" id="gui/AbstractGameState#drawOn(Ljava.awt.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleKeyPressed" id="gui/AbstractGameState#handleKeyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleKeyReleased" id="gui/AbstractGameState#handleKeyReleased(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GameFrame" location="26,30" size="121,99" id="gui/GameFrame" runTimeClassModel="main([Ljava.lang.String;),GameFrame()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,36">
+      <children xsi:type="editmodel:MethodEditModel" name="GameFrame" id="gui/GameFrame#GameFrame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="gui/GameFrame#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GameOverState" location="15,270" size="144,99" id="gui/GameOverState" runTimeClassModel="handleKeyPressed(Ljava.awt.event.KeyEvent;),GameOverState(Lview.GameView;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,36">
+      <children xsi:type="editmodel:MethodEditModel" name="GameOverState" id="gui/GameOverState#GameOverState(Lview.GameView;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleKeyPressed" id="gui/GameOverState#handleKeyPressed(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui/AbstractGameState&lt;-gui/GameOverState" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,153"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="IntroState" location="180,270" size="144,99" id="gui/IntroState" runTimeClassModel="handleKeyPressed(Ljava.awt.event.KeyEvent;),IntroState(Lview.GameView;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,36">
+      <children xsi:type="editmodel:MethodEditModel" name="IntroState" id="gui/IntroState#IntroState(Lview.GameView;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleKeyPressed" id="gui/IntroState#handleKeyPressed(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui/AbstractGameState&lt;-gui/IntroState" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,153"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PlayState" location="345,270" size="149,171" id="gui/PlayState" runTimeClassModel="clocktick(),handleKeyPressed(Ljava.awt.event.KeyEvent;),Scorecount(I),Gameover(),PlayState(Lview.GameView;),handleKeyReleased(Ljava.awt.event.KeyEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Gameover" id="gui/PlayState#Gameover()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PlayState" id="gui/PlayState#PlayState(Lview.GameView;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Scorecount" id="gui/PlayState#Scorecount(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clocktick" id="gui/PlayState#clocktick()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleKeyPressed" id="gui/PlayState#handleKeyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleKeyReleased" id="gui/PlayState#handleKeyReleased(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui/AbstractGameState&lt;-gui/PlayState" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,153"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ArrowleftModel" location="330,504" size="139,99" id="models/ArrowleftModel" runTimeClassModel="ArrowleftModel(DDD),ArrowleftModel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ArrowleftModel" id="models/ArrowleftModel#ArrowleftModel(DDD)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ArrowleftModel" id="models/ArrowleftModel#ArrowleftModel()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="view/Sprite&lt;-models/ArrowleftModel" source="//@children.5" target="//@children.7/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ArrowrightModel" location="900,531" size="148,99" id="models/ArrowrightModel" runTimeClassModel="ArrowrightModel(DDD),ArrowrightModel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ArrowrightModel" id="models/ArrowrightModel#ArrowrightModel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ArrowrightModel" id="models/ArrowrightModel#ArrowrightModel(DDD)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="view/Sprite&lt;-models/ArrowrightModel" source="//@children.6" target="//@children.7/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NegativeMoneyModel" location="75,495" size="179,117" id="models/NegativeMoneyModel" runTimeClassModel="clocktick(),NegativeMoneyModel(DD),NegativeMoneyModel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,54">
+      <children xsi:type="editmodel:MethodEditModel" name="NegativeMoneyModel" id="models/NegativeMoneyModel#NegativeMoneyModel(DD)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NegativeMoneyModel" id="models/NegativeMoneyModel#NegativeMoneyModel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clocktick" id="models/NegativeMoneyModel#clocktick()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.11/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.12/@sourceConnections.0 //@children.10/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.9/@sourceConnections.0 //@children.13/@sourceConnections.0 //@children.6/@sourceConnections.0" autoLocated="true" id="view/Sprite&lt;-models/NegativeMoneyModel" source="//@children.7" target="//@children.17" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,369" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PlayerModel" location="720,513" size="137,117" id="models/PlayerModel" runTimeClassModel="MovedownPlayer(),MoveupPlayer(),PlayerModel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,54">
+      <children xsi:type="editmodel:MethodEditModel" name="MovedownPlayer" id="models/PlayerModel#MovedownPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MoveupPlayer" id="models/PlayerModel#MoveupPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PlayerModel" id="models/PlayerModel#PlayerModel()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="view/Sprite&lt;-models/PlayerModel" source="//@children.8" target="//@children.7/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PlusMoneyModel" location="705,360" size="150,99" id="models/PlusMoneyModel" runTimeClassModel="clocktick(),PlusMoneyModel(DD)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:MethodEditModel" name="PlusMoneyModel" id="models/PlusMoneyModel#PlusMoneyModel(DD)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clocktick" id="models/PlusMoneyModel#clocktick()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="view/Sprite&lt;-models/PlusMoneyModel" source="//@children.9" target="//@children.7/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PowerTextModel" location="1080,540" size="149,81" id="models/PowerTextModel" runTimeClassModel="PowerTextModel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,18">
+      <children xsi:type="editmodel:MethodEditModel" name="PowerTextModel" id="models/PowerTextModel#PowerTextModel()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="view/Sprite&lt;-models/PowerTextModel" source="//@children.10" target="//@children.7/@sourceConnections.0" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PowerupModel" location="930,351" size="138,117" id="models/PowerupModel" runTimeClassModel="clocktick(),PowerupModel(DD),PowerupModel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,54">
+      <children xsi:type="editmodel:MethodEditModel" name="PowerupModel" id="models/PowerupModel#PowerupModel(DD)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PowerupModel" id="models/PowerupModel#PowerupModel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clocktick" id="models/PowerupModel#clocktick()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="view/Sprite&lt;-models/PowerupModel" source="//@children.11" target="//@children.7/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SurvivingboxModel" location="512,513" size="165,81" id="models/SurvivingboxModel" runTimeClassModel="SurvivingboxModel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,18">
+      <children xsi:type="editmodel:MethodEditModel" name="SurvivingboxModel" id="models/SurvivingboxModel#SurvivingboxModel()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="view/Sprite&lt;-models/SurvivingboxModel" source="//@children.12" target="//@children.7/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VesselModel" location="1110,369" size="121,81" id="models/VesselModel" runTimeClassModel="VesselModel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,18">
+      <children xsi:type="editmodel:MethodEditModel" name="VesselModel" id="models/VesselModel#VesselModel()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="view/Sprite&lt;-models/VesselModel" source="//@children.13" target="//@children.7/@sourceConnections.0" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DeathZone" location="922,32" size="248,225" id="view/DeathZone" runTimeClassModel="removeArrowrightList,clocktick(),paintComponent(Ljava.awt.Graphics;),released(I),randomizer,DeathZone(Lgui.PlayState;),arrowleftList,removeArrowleftList,arrowrightList">
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="arrowleftList" id="view/DeathZone#arrowleftList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="arrowrightList" id="view/DeathZone#arrowrightList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="randomizer" id="view/DeathZone#randomizer"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="removeArrowleftList" id="view/DeathZone#removeArrowleftList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="removeArrowrightList" id="view/DeathZone#removeArrowrightList"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,72">
+      <children xsi:type="editmodel:MethodEditModel" name="DeathZone" id="view/DeathZone#DeathZone(Lgui.PlayState;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clocktick" id="view/DeathZone#clocktick()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="view/DeathZone#paintComponent(Ljava.awt.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="released" id="view/DeathZone#released(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GameView" location="1185,30" size="155,301" id="view/GameView" runTimeClassModel="paintComponent(Ljava.awt.Graphics;),view.GameView.KeyHandler,startClock(I),GameView(),view.GameView.TimerHandler,stopClock()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,72">
+      <children xsi:type="editmodel:MethodEditModel" name="GameView" id="view/GameView#GameView()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="view/GameView#paintComponent(Ljava.awt.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startClock" id="view/GameView#startClock(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopClock" id="view/GameView#stopClock()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,156">
+      <children xsi:type="editmodel:ClassEditModel" name="KeyHandler" size="116,85" id="view/GameView$KeyHandler" runTimeClassModel="keyPressed(Ljava.awt.event.KeyEvent;),keyReleased(Ljava.awt.event.KeyEvent;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="92,36">
+          <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="view/GameView$KeyHandler#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="view/GameView$KeyHandler#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="TimerHandler" size="132,67" id="view/GameView$TimerHandler" runTimeClassModel="actionPerformed(Ljava.awt.event.ActionEvent;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="109,18">
+          <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="view/GameView$TimerHandler#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ScoreZone" location="645,32" size="269,297" id="view/ScoreZone" runTimeClassModel="ScoreZone(Lgui.PlayState;),powerupList,addkeytable(I),paintComponent(Ljava.awt.Graphics;),removekey(I),randomizer,ispressed(I),removePowerupList,removePlusmoneyList,clocktick(),plusmoneyList,removeNegativemoneyList,negativemoneyList">
+    <children xsi:type="editmodel:CompartmentEditModel" size="246,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="negativemoneyList" id="view/ScoreZone#negativemoneyList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="plusmoneyList" id="view/ScoreZone#plusmoneyList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="powerupList" id="view/ScoreZone#powerupList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="randomizer" id="view/ScoreZone#randomizer"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="removeNegativemoneyList" id="view/ScoreZone#removeNegativemoneyList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="removePlusmoneyList" id="view/ScoreZone#removePlusmoneyList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="removePowerupList" id="view/ScoreZone#removePowerupList"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,108">
+      <children xsi:type="editmodel:MethodEditModel" name="ScoreZone" id="view/ScoreZone#ScoreZone(Lgui.PlayState;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addkeytable" id="view/ScoreZone#addkeytable(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clocktick" id="view/ScoreZone#clocktick()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ispressed" id="view/ScoreZone#ispressed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="view/ScoreZone#paintComponent(Ljava.awt.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removekey" id="view/ScoreZone#removekey(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Sprite" location="512,30" size="128,369" id="view/Sprite">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="image" id="view/Sprite#image"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="motion" id="view/Sprite#motion"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rect" id="view/Sprite#rect"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,252">
+      <children xsi:type="editmodel:MethodEditModel" name="Sprite" id="view/Sprite#Sprite()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clocktick" id="view/Sprite#clocktick()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clone" id="view/Sprite#clone()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawOn" id="view/Sprite#drawOn(Ljava.awt.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDX" id="view/Sprite#getDX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDY" id="view/Sprite#getDY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHeight" id="view/Sprite#getHeight()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWidth" id="view/Sprite#getWidth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getX" id="view/Sprite#getX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getY" id="view/Sprite#getY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDX" id="view/Sprite#setDX(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDY" id="view/Sprite#setDY(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMotion" id="view/Sprite#setMotion(DD)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPosition" id="view/Sprite#setPosition(DD)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
